@@ -189,13 +189,24 @@ footer {
 }
 
 .datascience {
-    background-image: url('datascience.jpg');
-    color: white;
+    background-image: url('Assets/datascience.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: contain;
 }
 
 .cybersecurity {
-    background-image: url('cybersecurity.jpg');
-    color: rgb(248, 100, 100);
+    background-image: url('Assets/cybersecurity.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: contain;
+}
+
+.softwaredevelopment {
+    background-image: url('Assets/softwaredevelopment.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: contain;
 }
 
 .centerText { /*TEXT ALLIGN*/
