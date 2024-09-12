@@ -64,30 +64,19 @@
 
 /*--------------------------- */
 
+.mainTitle { 
+    color: white;     /* change later */
+    background-color: rgba(134, 31, 31, 0.95); /* main color but with 95% opacity */
+    text-align: center;
+    padding: 5px;
+}
+
 
 body {
+    padding-top: 58px; /* so nothing is behind the menu bar */
     font-family: 'Arial', sans-serif;
     background-color: #656565;
-    margin: 0;
-    padding: 20px;
-    color: #ac8c8c;
-}
-
-header {
-    background-color: #801818;
-    padding: 40px;
-    text-align: center;
-    color: white;
-}
-
-header h1 {
-    margin: 10;
-    font-size: 30px;
-}
-
-header p {
-    font-size: 20px;
-    margin-top: 10px;
+    margin: 0px;
 }
 
 .content {
@@ -100,8 +89,8 @@ header p {
     background-color: #fff;
     margin-bottom: 30px;
     padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
+    border-radius: 20px;
+    /* border: 1px solid #ddd; */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +101,7 @@ header p {
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.whiteBox:hover {
+.whiteBox:hover {    
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -207,8 +196,4 @@ footer {
     color: #801818;
     background-position: top;
     background-size: contain;
-}
-
-.centerText { /*TEXT ALLIGN*/
-    text-align: center
 }
