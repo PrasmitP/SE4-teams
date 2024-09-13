@@ -90,7 +90,6 @@ body {
     margin-bottom: 30px;
     padding: 60px;
     border-radius: 20px;
-    /* border: 1px solid #ddd; */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-wrap: wrap;
@@ -159,7 +158,8 @@ body {
     background-image: url('Assets/datascience.jpg');
     color: #801818;
     background-position: top;
-    background-size: contain;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 
@@ -186,14 +186,54 @@ body {
     background-image: url('Assets/softwaredevelopment.jpg');
     color: #801818;
     background-position: top;
-    background-size: contain;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
-.blur-filter{
-    width:100%;
-    height: 100%;;
-    background-color: green;
+.homePage {
+    background-image: url('Assets/homePage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
-/* filter: blur(8px);
--webkit-filter: blur(8px); */
+.learn-morePage {
+    background-image: url('Assets/learn-morePage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.skillsPage {
+    background-image: url('Assets/skillsPage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.prepare-cs {
+    background-image: url('Assets/prepare-cs.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.cslife {
+    background-image: url('Assets/cslifePage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.csprojects {
+    background-image: url('Assets/csprojectsPage.jpg');
+    color: #801818;
+    background-position: left center; /* Aligns the image to the left and centers it vertically */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
