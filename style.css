@@ -86,11 +86,10 @@ body {
 }
 
 .whiteBox {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9); /* White with 80% opacity (the last .8 is opacity so change to test)*/
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 20px;
-    /* border: 1px solid #ddd; */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-wrap: wrap;
@@ -181,7 +180,8 @@ footer {
     background-image: url('Assets/datascience.jpg');
     color: #801818;
     background-position: top;
-    background-size: contain;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .cybersecurity {
@@ -195,5 +195,54 @@ footer {
     background-image: url('Assets/softwaredevelopment.jpg');
     color: #801818;
     background-position: top;
-    background-size: contain;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.homePage {
+    background-image: url('Assets/homePage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.learn-morePage {
+    background-image: url('Assets/learn-morePage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.skillsPage {
+    background-image: url('Assets/skillsPage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.prepare-cs {
+    background-image: url('Assets/prepare-cs.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.cslife {
+    background-image: url('Assets/cslifePage.jpg');
+    color: #801818;
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.csprojects {
+    background-image: url('Assets/csprojectsPage.jpg');
+    color: #801818;
+    background-position: left center; /* Aligns the image to the left and centers it vertically */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
